@@ -7,7 +7,6 @@ import "../../src/style.css"
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
-
 const ImageContainer = (props) => {
   const [file, setFile] = useState(null); 
   const [previewSrc, setPreviewSrc] = useState(''); 
